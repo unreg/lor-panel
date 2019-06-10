@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "LOR react panel",
+  "version": "0.1.0",
+  "description": "React navigation panel for LINUX.ORG.RU",
+  "content_scripts": [
+    {
+      "matches": ["https://www.linux.org.ru/*"],
+      "js": ["/static/js/main.js"]
+    }
+  ],
+  "permissions": [
+    "storage"
+  ]
+}
